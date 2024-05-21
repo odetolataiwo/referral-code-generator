@@ -1,29 +1,15 @@
-package src
+package operations
 
 import (
 	"errors"
 	"fmt"
-	"math/rand"
 	"strings"
-	"time"
 )
-
-type ReferralCodeGenerator struct {
-	Rng *rand.Rand
-}
 
 const (
 	alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	numbers   = "0123456789"
 )
-
-// NewReferralCodeGenerator creates a new instance of ReferralCodeGenerator with a seeded random number generator
-func NewReferralCodeGenerator() *ReferralCodeGenerator {
-	seed := time.Now().UnixNano()
-	source := rand.NewSource(seed)
-	rng := rand.New(source)
-	return &ReferralCodeGenerator{Rng: rng}
-}
 
 // AlphaNumeric generates an alpha-numeric referral code
 func (r *ReferralCodeGenerator) AlphaNumeric(wordCase string, wordLength int, numLength int) (string, error) {

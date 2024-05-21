@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0733bbfb-f994-43eb-ad71-8fdfb5d8bfa7" name="Changes" comment="" />
+    <list default="true" id="0733bbfb-f994-43eb-ad71-8fdfb5d8bfa7" name="Changes" comment="Update Go package">
+      <change afterPath="$PROJECT_DIR$/operations/operations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code_generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/operations/code_generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/operations/helpers.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +90,10 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Go package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Go package" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>

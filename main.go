@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	cg "github.com/odetolataiwo/referral-code-generator/src"
+	cg "github.com/odetolataiwo/referral-code-generator/operations"
 )
 
 func main() {
-	r := cg.NewReferralCodeGenerator()
+	r := cg.Init()
 
 	alpha, err := r.Alpha("lowercase", 12)
 	if err != nil {
@@ -24,7 +24,7 @@ func main() {
 		fmt.Println("AlphaNumeric:", alphaNumeric)
 	}
 
-	custom, err := r.Custom("lowercase", 6, 6, "rockstar")
+	custom, err := r.Custom("uppercase", 4, 6, "rockstar")
 	if err != nil {
 		fmt.Println(err)
 	} else {

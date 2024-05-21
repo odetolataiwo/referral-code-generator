@@ -1,4 +1,4 @@
-package src
+package operations
 
 import "strings"
 
